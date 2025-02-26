@@ -1,0 +1,48 @@
+# Ignore build and binary files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (VSCode, Rider, etc.)
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore dependency cache
+packages/
+node_modules/
+
+# Ignore database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Ignore config files with secrets (optional)
+config.yml
+appsettings.json
+appsettings.Development.json
+
+# Ignore compiled JSON files
+*.json.bak
+
+# Ignore data
+data
